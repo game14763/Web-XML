@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 SECRET_KEY = 'nlu$jmgovhn!l5x0d!vb^5%=(%+b*god7h19=-d!2&^!3n*8tq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['dangame.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -119,4 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_DIR = os.path.join(BASE_DIR,"static-collection")
+
+MEDIA_ROOT = os.path.join(BASE_DIR,"media/")
+MEDIA_URL = "/media/"
