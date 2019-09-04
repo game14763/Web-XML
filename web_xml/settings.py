@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 SECRET_KEY = 'nlu$jmgovhn!l5x0d!vb^5%=(%+b*god7h19=-d!2&^!3n*8tq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dangame.pythonanywhere.com']
 
 
 # Application definition
